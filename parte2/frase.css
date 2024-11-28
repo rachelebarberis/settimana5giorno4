@@ -28,13 +28,14 @@ main {
     
 }
 
-#testoAleternato p {
+#testoAlternato p {
     line-height: 1.5rem;
     margin: 0;
     
 }
 span {
     width: 200px;
+    color:#6b969d;
 }
 .parole {
     display: inline-block;
@@ -65,7 +66,7 @@ span {
         opacity: 1;
         transform: translateY(0);
     }
-    35% {
+    40% {
         opacity: 0;
         transform: translateY(-100%);
     }
