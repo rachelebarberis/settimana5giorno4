@@ -1,10 +1,12 @@
-html,body {
+html,
+body {
     margin: 0;
-    padding:0;
+    padding: 0;
     font-family: "Indie Flower", cursive;
     background-color: gray;
     box-sizing: border-box;
 }
+
 h1 {
     font-weight: bold;
     padding-bottom: 25px;
@@ -19,31 +21,42 @@ h1 {
     height: 100vh;
     padding-top: 20px;
 }
-.one, .two, .three {
+
+.one,
+.two,
+.three {
     /*border: 2px solid black;*/
     width: 220px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:30px;
-    
+    margin: 30px;
+
 }
+
 .one {
-    background-color: antiquewhite;
+    background: linear-gradient(rgb(204, 255, 204) 0%,
+            rgb(184, 219, 184) 75%,
+            rgb(146 180 146) 93%);
     transform: rotate(20deg);
+
 }
+
 .two {
-    background-color: aqua;
-    transform: rotate(-10deg);
-}
-.three {
-    background-color: blueviolet;
-    transform: rotate(10deg);
-}
+    background: linear-gradient(rgb(204, 204, 255) 0%, 
+    rgb(176, 176, 204) 75%, 
+    rgb(147 147 186) 93%);
+            transform: rotate(-10deg);
+    }
 
-.one:hover, .two:hover, .three:hover{
-    transform: rotate(0deg);
-    transform: scale(1.2,1.2);
+    .three {
+        background: linear-gradient(#fdfdcb 0%, #e8e9b2 70%, #bdbda3 92%);
+        transform: rotate(10deg);
+    }
 
-}
+    .one:hover, .two:hover, .three:hover {
+        transform: rotate(0deg);
+        transform: scale(1.2, 1.2);
+
+    }
